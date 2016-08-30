@@ -1,0 +1,8 @@
+.reveal section.left p {
+  text-align: left;
+}
+
+.reveal pre {
+  width: 100%;
+  font-size: 0.8em;
+}
