@@ -28,5 +28,9 @@ module.exports = {
     new CopyWebpackPlugin([ 
       { from: { glob: 'content/*.md' } } 
     ])
-  ]
+  ],
+  devServer: {
+    noInfo: true,
+    port: 8081
+  }
 };
